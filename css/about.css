@@ -1,0 +1,94 @@
+.top-container{
+padding: 20px;
+background-color: #C4DFAA;
+}
+.navbar{
+  position: sticky;
+  display: inline-block;
+}
+.logo a{
+  color: #B2A4FF;
+  text-decoration: none;
+  font-style:italic;
+  font-weight:bolder;
+  font-size: 30px;
+}
+.navbar nav ul li{
+  display: inline-block;
+  margin-right: 30px;
+}
+.navbar nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.list-item li :hover{
+  color: #73A9AD;
+}
+
+.truck-img{
+  height: 400px;
+   background-image: url("images/truck.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+.truck-img p{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 220px;
+  font-weight: bold;
+}
+.truck-img h3{
+position: absolute;
+margin-top: 220px;
+margin-left: 30px;
+color: white;
+font-size: 40px;
+font-family: cursive;
+font-weight: bold;
+}
+.app{
+  padding-left: 20px;
+  background-color: #D75281;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.app h2{
+  font-family: cursive;
+}
+.app button{
+  margin: 10px;
+}
+
+.card-body{
+  background-color: #FFEE63;
+}
+.card-body a{
+  background-color: #FF5B00;
+}
+.middle-container{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.middle-container h2{
+  color: #371B58;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.middle-container p{
+  color: #371B58;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px){
+  .middle-container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

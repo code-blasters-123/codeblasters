@@ -1,0 +1,9 @@
+html, body, .intro {
+  height: 100%;
+}
+
+.gradient-custom {
+  
+  background: #c471f5;
+   background: linear-gradient(to top, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1))
+}
